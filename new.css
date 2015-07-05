@@ -25,10 +25,71 @@ li {
   width: auto;
 }
 
-/*.navbar-brand{
-  color: #ffffff;
-}*/
+/* The navbar itself*/
+.navbar {
+  background-color: navy;
+  background: navy;
+  border-color: navy;
+}
 
+/* Navbar text color */
+.navbar .nav > li > a {
+  color:  #D2BC00;
+}
+
+/* Navbar brand */
+.navbar-default .navbar-brand {
+  color:  #D2BC00;
+}
+
+/*Navbar Brand Text*/
+.navbar-inverse .navbar-brand {
+  color:  #F30017;
+}
+
+/*Navbar Brand Text Hover*/
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus{
+  color:  red;
+}
+
+/* Navbar Hovering */
+.navbar .nav > li > a:hover {
+  color:  #F8F80B;
+}
+
+/* Hamburger lines */
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #D2BC00;
+}
+
+/* Hamburger border */
+.navbar-inverse .navbar-toggle {
+  border-color:#000
+}
+
+/* Hamburger */
+.navbar-toggle {
+  background-color: #0000AD;
+  border: 1px solid transparent;
+}
+
+/* Hover above hamburger */
+.navbar-inverse .navbar-toggle:hover {
+  background-color: #0000EE;
+}
+
+/*.logo {
+    height: 15px;
+    width: 16px;
+    margin-right: 4px;
+    margin-top:2px;
+    display: inline-block;
+    background-image: url(img/led.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+*/
 .footer {
 	width:100%;
 	height:80px;
